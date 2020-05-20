@@ -4,7 +4,6 @@ const app=express();
 const axios=require('axios');
 const mongoose=require('mongoose');
 const cors=require('cors');
-const cheerio=require('cheerio');
 const bodyParser=require('body-parser');
 
 
@@ -16,7 +15,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }))
  
 app.use(bodyParser.json())
-mongoose.connect('mongodb+srv://m001-student:GiOgu6k13WdxQXm8@avinash-001-q92dl.mongodb.net/scraping?retryWrites=true&w=majority', {useNewUrlParser: true}).then(res=>console.log('connected'))
+mongoose.connect('mongodb+srv://m001-student:mBVI3SbOLiX22EPT@avinash-001-q92dl.mongodb.net/scraping?retryWrites=true&w=majority', {useNewUrlParser: true}).then(res=>console.log('connected'))
     .catch(e=>console.log(e));
 
 
@@ -49,6 +48,7 @@ app.post('/getProfs',(req,res)=>{
 
 app.post('/getProfData',(req,res)=>{
     let {name}=req.body;
+    console.log(name);
     let thisRes=res;
     profBio.find({name}).then((res)=>{
         if(res.length!=0){
@@ -56,7 +56,8 @@ app.post('/getProfData',(req,res)=>{
         }
         else{
             scholar.search(name).then((ress)=>{
-                if(ress.data.results.length===0)return;
+                console.log(ress);
+                // if(ress.data.results.length===0)return;
                 let obj=new profBio({name,data:ress})
                 obj.save().then(res=>thisRes.send(ress));
                 
