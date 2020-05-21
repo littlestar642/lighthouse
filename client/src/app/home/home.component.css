@@ -1,0 +1,19 @@
+.wrapper{
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    top:20vh;
+}
+.container .item{
+    flex:1;
+}
+
+.item{
+    flex:1 0 auto;
+}

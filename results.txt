@@ -1,0 +1,133 @@
+{ results:
+   [ { title: 'Automatic text classification: a technical review',
+       url:
+        'https://www.researchgate.net/profile/Mukesh_Zaveri/publication/266296879_Automatic_Text_Classification_A_Technical_Review/links/54e74a0a0cf2b199060ae1c5.pdf',
+       authors: [Array],
+       description:
+        'ABSTRACT Automatic Text Classification is a semi-supervised machine learning task that automatically assigns a given document to a set of pre-defined categories based on its textual content and extracted features. Automatic Text Classification has important�…',
+       citedCount: '127',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:DLmpsv1jfNUJ:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf:
+        'https://www.researchgate.net/profile/Mukesh_Zaveri/publication/266296879_Automatic_Text_Classification_A_Technical_Review/links/54e74a0a0cf2b199060ae1c5.pdf' },
+     { title:
+        'Illumination and pose invariant face recognition: a technical review',
+       url:
+        'https://www.researchgate.net/profile/K_Singh13/publication/266178436_Illumination_and_Pose_Invariant_Face_Recognition_A_Technical_Review/links/5461ba4a0cf27487b4528aab/Illumination-and-Pose-Invariant-Face-Recognition-A-Technical-Review.pdf',
+       authors: [Array],
+       description:
+        'Face recognition being the most important biometric trait it still faces many challenges, like pose variation, illumination variation etc. When such variations are present in both pose and illumination, all the algorithms are greatly affected by these variations and their performance�…',
+       citedCount: '25',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:EwFfFVjU7C0J:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf:
+        'https://www.researchgate.net/profile/K_Singh13/publication/266178436_Illumination_and_Pose_Invariant_Face_Recognition_A_Technical_Review/links/5461ba4a0cf27487b4528aab/Illumination-and-Pose-Invariant-Face-Recognition-A-Technical-Review.pdf' },
+     { title: 'A novel approach for fingerprint matching using minutiae',
+       url: 'https://ieeexplore.ieee.org/abstract/document/5489186/',
+       authors: [Array],
+       description:
+        'Fingerprint recognition is one of the most important challenging tasks of the biometrics identification due to the fact that they are easy to obtain and most importantly they are reliable. A number of pattern recognition methods have been used to perform fingerprint�…',
+       citedCount: '19',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:oN126i4PHkEJ:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf: undefined },
+     { title:
+        'A novel segment-based stereo matching algorithm for disparity map generation',
+       url:
+        'https://www.researchgate.net/profile/Mukesh_Zaveri/publication/267714265_A_Novel_Segment-based_Stereo_Matching_Algorithm_for_Disparity_Map_Generation/links/547939820cf293e2da2b3013.pdf',
+       authors: [Array],
+       description:
+        'This paper presents a novel segment-based stereo matching algorithm for disparity map generation which is computationally inexpensive. In this paper, bilateral filtered left and right images are segmented. Then, high confidence disparity map is obtained by Winner-Take-All�…',
+       citedCount: '14',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:-TPmRMJ6AdsJ:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf:
+        'https://www.researchgate.net/profile/Mukesh_Zaveri/publication/267714265_A_Novel_Segment-based_Stereo_Matching_Algorithm_for_Disparity_Map_Generation/links/547939820cf293e2da2b3013.pdf' },
+     { title:
+        'Opinion mining from online user reviews using fuzzy linguistic hedges',
+       url: 'https://www.hindawi.com/journals/acisc/2014/735942/abs/',
+       authors: [Array],
+       description:
+        'Nowadays, there are several websites that allow customers to buy and post reviews of purchased products, which results in incremental accumulation of a lot of reviews written in natural language. Moreover, conversance with E-commerce and social media has raised the�…',
+       citedCount: '48',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:lQTlqv2WTnwJ:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf:
+        'http://downloads.hindawi.com/journals/acisc/2014/735942.pdf' },
+     { title:
+        'Semisupervised learning based opinion summarization and classification for online product reviews',
+       url: 'https://www.hindawi.com/journals/acisc/2013/910706/abs/',
+       authors: [Array],
+       description:
+        'The growth of E-commerce has led to the invention of several websites that market and sell products as well as allow users to post reviews. It is typical for an online buyer to refer to these reviews before making a buying decision. Hence, automatic summarization of users\'�…',
+       citedCount: '43',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:PoJ4XVCb_kwJ:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf:
+        'http://downloads.hindawi.com/journals/acisc/2013/910706.pdf' },
+     { title:
+        'A novel voice conversion approach using admissible wavelet packet decomposition',
+       url:
+        'https://link.springer.com/article/10.1186/1687-4722-2013-28',
+       authors: [Array],
+       description:
+        'The framework of voice conversion system is expected to emphasize both the static and dynamic characteristics of the speech signal. The conventional approaches like Mel frequency cepstrum coefficients and linear predictive coefficients focus on spectral features�…',
+       citedCount: '11',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:2XvlqYJD0WoJ:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf:
+        'https://link.springer.com/article/10.1186/1687-4722-2013-28' },
+     { title:
+        'A novel fuzzy based classification for data mining using fuzzy discretization',
+       url: 'https://ieeexplore.ieee.org/abstract/document/5170934/',
+       authors: [Array],
+       description:
+        'Data mining is a process to discover useful, possibly unexpected, patterns from the large set of data and widely used in the large information processing applications. Classification is used to classify the data into a set of classes based on some attributes for further processing�…',
+       citedCount: '9',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:vjOEGTevEUMJ:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf: undefined },
+     { title:
+        'Multiple single pixel dim target detection in infrared image sequence',
+       url: 'https://ieeexplore.ieee.org/abstract/document/1205987/',
+       authors: [Array],
+       description:
+        'It is difficult to detect and classify multiple point targets in the presence of clutter and noise, in an air borne IR image sequence. Most existing approaches assume a target of several pixels size or of Gaussian shape with a variance of 1.5 pixels. We propose a wavelet based�…',
+       citedCount: '25',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:ETidh4rnVW4J:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf:
+        'https://www.researchgate.net/profile/Shabbir_Merchant2/publication/221378022_Multiple_single_pixel_dim_target_detection_in_infrared_image_sequence/links/0046351a8daaf8a028000000.pdf' },
+     { title: 'Automatic classification of unstructured blog text',
+       url: 'https://www.scirp.org/html/5-9601212_31487.htm',
+       authors: [Array],
+       description:
+        'Automatic classification of blog entries is generally treated as a semi-supervised machine learning task, in which the blog entries are automatically assigned to one of a set of pre-defined classes based on the features extracted from their textual content. This paper�…',
+       citedCount: '21',
+       citedUrl: 'https://scholar.google.comjavascript:void(0)',
+       relatedUrl:
+        'https://scholar.google.com/scholar?q=related:sWDdXRUXCxYJ:scholar.google.com/&scioq=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+       pdf: 'https://www.scirp.org/html/5-9601212_31487.htm' },
+     { title: '',
+       url: undefined,
+       authors: [],
+       description: '',
+       citedCount: 0,
+       citedUrl: '',
+       relatedUrl: '',
+       pdf: undefined } ],
+  count: 320,
+  nextUrl:
+   'https://scholar.google.com/scholar?start=10&q=mukesh-a-zaveri&hl=en&oe=ASCII&as_sdt=0,5',
+  prevUrl: '',
+  next: [Function: next],
+  previous: [Function: previous] }

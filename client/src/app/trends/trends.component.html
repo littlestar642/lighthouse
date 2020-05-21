@@ -1,0 +1,97 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Trending Professors</mat-card-title>
+      <mat-card-subtitle>public choice</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-table [dataSource]="dataSource1" class="mat-elevation-z8">
+    <!-- Position Column -->
+    <ng-container matColumnDef="rating">
+      <mat-header-cell *matHeaderCellDef> Popularity </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.rating}} </mat-cell>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="link">
+      <mat-header-cell *matHeaderCellDef> Link </mat-header-cell>
+      <mat-cell *matCellDef="let element"> <button [routerLink]="['element.link']"  mat-button color="accent">page</button></mat-cell>
+    </ng-container>
+  
+   
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns1"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns1;"></mat-row>
+  </mat-table>
+    </mat-card-content>
+  </mat-card>
+  
+  <hr>
+  <hr>
+  <hr>
+  
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Trending Interests</mat-card-title>
+      <mat-card-subtitle>public choice</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-table [dataSource]="dataSource2" class="mat-elevation-z8">
+    <!-- Position Column -->
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef> Interest </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="searches">
+      <mat-header-cell *matHeaderCellDef> Searches per week </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.searches}} </mat-cell>
+    </ng-container>
+  
+   
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns2"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns2;"></mat-row>
+  </mat-table>
+    </mat-card-content>
+  </mat-card>
+  
+  <hr>
+  <hr>
+  <hr>
+  
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Trending Institutes</mat-card-title>
+      <mat-card-subtitle>public choice</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-table [dataSource]="dataSource3" class="mat-elevation-z8">
+    
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+    </ng-container>
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="rating">
+        <mat-header-cell *matHeaderCellDef> Popularity </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.rating}} </mat-cell>
+      </ng-container>
+  
+  
+   
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns3"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns3;"></mat-row>
+  </mat-table>
+    </mat-card-content>
+  </mat-card>

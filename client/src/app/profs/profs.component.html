@@ -1,0 +1,39 @@
+<div>
+    <div style="display: flex;width:100%">
+    <h1 style="align-self: flex-start;flex:3">Name - {{profName}}</h1>
+    <h1 style="align-self: flex-end;flex:1">Credibility # - {{popularity}}</h1>
+    </div>
+    <mat-divider></mat-divider>
+
+    <h1 style="text-align: center">Popular Articles</h1>
+    <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+        
+      
+        <!-- Name Column -->
+        <ng-container matColumnDef="title">
+          <mat-header-cell *matHeaderCellDef> Title </mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.title}} </mat-cell>
+        </ng-container>
+      
+        <!-- Weight Column -->
+        <ng-container matColumnDef="link">
+          <mat-header-cell *matHeaderCellDef> Link to Pdf summary </mat-header-cell>
+          <mat-cell *matCellDef="let element"><button mat-button color="accent" mat-raised-button (click)="openDialog(element.link)">Summary</button>
+          </mat-cell>
+        </ng-container>
+      
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="citation">
+          <mat-header-cell *matHeaderCellDef> Citations </mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.citation}} </mat-cell>
+        </ng-container>
+      
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+      </mat-table>
+</div>
+
+<h1 style="text-align: center">Graphs and Charts</h1>
+<mat-divider></mat-divider>
+
+<div id="container"></div>
